@@ -15,8 +15,9 @@ if($nilai >= 90 && $absen >= 90){
     echo "Selamat Anda Lulus" . PHP_EOL;
 }elseif($nilai >= 80 && $absen >= 80){
     echo "Nilai Anda B" . PHP_EOL;
-}
- else {
+}elseif($nilai >= 70 && $absen >= 70){
+    echo "Nilai Anda C" . PHP_EOL;
+}else {
     echo "Coba Lagi Tahun Depan" . PHP_EOL;
 }
 

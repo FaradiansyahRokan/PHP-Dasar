@@ -26,7 +26,4 @@ $kehadiran = $dataSiswa["TB"] ?? "tidakHadir";
 
 echo $kehadiran . PHP_EOL;
 
-
-
-
 ?>
